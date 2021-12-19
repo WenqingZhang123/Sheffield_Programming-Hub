@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>video player</title>
+    <style>
+      html,body {
+        width: 100%;
+      }
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      .container {
+        width: 800px;
+        height: 500px;
+        margin: 0 auto;
+        margin-top: 100px;
+      }
+      #video {
+        width: 800px;
+        height: 500px;
+      }
+    </style>
+  <link href="css/main-css.css" rel="stylesheet"><link href="css/main-sass.css" rel="stylesheet"></head>
+  <body>
+    <noscript>
+      <strong>We're sorry but soucecode doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div class="container">
+      <div id="video"></div>
+      <!-- <button id="custonBtn">自定义按钮</button> -->
+    </div>
+  <script type="text/javascript" src="PluginVideo.js"></script></body>
+  <script>
+    var videoDom = document.getElementById('video')
+    var video = PluginVideo.create(videoDom, {
+      src: 'https://blz-videos.nosdn.127.net/1/OverWatch/AnimatedShots/Overwatch_AnimatedShot_Bastion_TheLastBastion.mp4', // 播放地址
+      type: 'mp4',
+      // src: 'http://ivi.bupt.edu.cn/hls/cctv1hd.m3u8', // CCTV1网络直播测试地址
+      // type: 'hls',
+      slideControl: false, // 是否空闲时隐藏控件栏
+      loop: true,
+      bigPlayMenu: true,
+      // playbackRate: 2,
+      autoplay: false // 自动播放
+    })
+    video.addEventListener('error', (event) => {
+      console.log(event)
+    })
+    // video.addCustomMenu(document.getElementById('custonBtn'))
+    // video.addCustomMenu(document.getElementById('custonBtn'), video.getVolumeMenu())
+  </script>
+</html>

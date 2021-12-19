@@ -1,0 +1,21 @@
+const JS = [
+	"config",
+	"array",
+	"role",
+	"score",
+	"debug",
+	"random",
+	"math",
+	"opening",
+	"open26",
+	"open1",
+	"message",
+	"zobrist",
+	"statistic",
+	"evaluate-point",
+	"board",
+	"negamax",
+	"ai",
+	"draw",
+	"player"
+];
