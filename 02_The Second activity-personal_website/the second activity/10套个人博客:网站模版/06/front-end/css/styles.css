@@ -1,0 +1,40 @@
+/* CSS Document */
+
+/* Selector */
+
+div.selector{
+	background: #000;
+	position: absolute;
+	top: 0;
+	left: 0;	
+	z-index: 9999;
+	width: 130px;
+	padding: 0 10px 0 5px;
+}
+div.selector h3{
+	margin-left: 15px;
+	padding-top: 15px;
+	font: 14px 'Advent Pro';
+	font-weight: 500;
+	opacity: .99;
+	color: #ccc;	
+}
+div.selector select{ margin: 10px 0 0 10px; }
+div.selector ul.patterns li{ float: left; margin: 10px 0 0 10px; }
+div.selector ul.patterns li a{ display: block; width: 30px; height: 30px; }
+div.selector ul.patterns li a.active{ border: 1px solid; height: 28px; height: 28px; }
+div.selector ul.patterns li a#pattern1{ background: url(../images/patterns/pattern1.png) repeat; }
+div.selector ul.patterns li a#pattern2{ background: url(../images/patterns/pattern2.png) repeat; }
+div.selector ul.patterns li a#pattern3{ background: url(../images/patterns/pattern3.png) repeat; }
+div.selector ul.patterns li a#pattern4{ background: url(../images/patterns/pattern4.png) repeat; }
+div.selector ul.patterns li a#pattern5{ background: url(../images/patterns/pattern5.png) repeat; }
+div.selector ul.patterns li a#pattern6{ background: url(../images/patterns/pattern6.png) repeat; }
+div.selector ul.patterns li a#pattern7{ background: url(../images/patterns/pattern7.png) repeat; }
+div.selector ul.patterns li a#pattern8{ background: url(../images/patterns/pattern8.png) repeat; }
+div.selector ul.patterns li a#pattern9{ background: url(../images/patterns/pattern9.png) repeat; }
+div.selector ul.patterns li a#pattern10{ background: url(../images/patterns/pattern10.png) repeat; }
+div.selector ul.patterns li a#pattern11{ background: url(../images/patterns/pattern11.png) repeat; }
+div.selector ul.patterns li a#pattern12{ background: url(../images/patterns/pattern12.png) repeat; }
+
+/* End Selector */
+

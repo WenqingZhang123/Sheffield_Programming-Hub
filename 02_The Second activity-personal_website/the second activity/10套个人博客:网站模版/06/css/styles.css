@@ -1,0 +1,442 @@
+/* CSS Document */
+
+/*
+Author: EstudioPatagon
+Author URL: http://www.estudiopatagon.com
+*/
+
+@import url('themes.css');
+
+/* Reset */
+ 
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video, input, form{ margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+  
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+
+html, textarea{ overflow: auto; }
+ul{ list-style: none; }
+a{ text-decoration: none; outline: 0; }
+input, textarea{ margin: 0; padding: 0; border: 0; outline: 0; }
+input[type=button], input[type=submit]{ cursor: pointer; }
+h1, h2, h3, h4, h5, h6{ font-weight: normal; }
+div.clear{ clear: both; height: 0; }
+div.clear20{ clear: both; height: 20px; }
+ 
+/* End Reset */
+
+/* Patterns */
+
+body.pattern1{ background: url(../images/patterns/pattern1.png) repeat; }
+body.pattern2{ background: url(../images/patterns/pattern2.png) repeat; }
+body.pattern3{ background: url(../images/patterns/pattern3.png) repeat; }
+body.pattern4{ background: url(../images/patterns/pattern4.png) repeat; }
+body.pattern5{ background: url(../images/patterns/pattern5.png) repeat; }
+body.pattern6{ background: url(../images/patterns/pattern6.png) repeat; }
+body.pattern7{ background: url(../images/patterns/pattern7.png) repeat; }
+body.pattern8{ background: url(../images/patterns/pattern8.png) repeat; }
+body.pattern9{ background: url(../images/patterns/pattern9.png) repeat; }
+body.pattern10{ background: url(../images/patterns/pattern10.png) repeat; }
+body.pattern11{ background: url(../images/patterns/pattern11.png) repeat; }
+body.pattern12{ background: url(../images/patterns/pattern12.png) repeat; }
+
+/* End Patterns */
+
+/* General Styles */
+
+body{ font: 12px Verdana, Geneva, sans-serif; color: #fff; }
+#wrapper{ width: 700px; margin: 30px auto; position: relative; overflow: hidden; }
+div.content{ position: relative; border-top: 1px solid; border-bottom: 1px solid; }
+div.slider{ width: 700px; overflow: hidden; }
+div.slider ul.wrapper, div.slider ul.wrapper li.box{ display: block; position: relative; }
+
+#home, #resume, #portfolio, #contact{ width: 640px; padding: 25px 30px; position: relative; }
+#portfolio{ padding-top: 5px; }
+
+h1, h2, h3, h4, h5, h6{ font-family: 'Arvo', Verdana, Geneva, sans-serif; padding-top: 25px; }
+div.content h1{ font-size: 18px; }
+div.content h2{ font-size: 16px; }
+div.content h3{ font-size: 12px; }
+div.content h4{ font-size: 11px; }
+div.content h5{ font-size: 10px; }
+div.content h6{ font-size: 8px; }
+
+.alignleft{ float: left; }
+.alignright{ float: right; }
+img.alignleft{ margin-right: 25px; }
+img.alignright{ margin-left: 25px; }
+p{ padding-bottom: 20px; }
+.np{ padding: 0 !important; } /* np = nopadding fixes incorrect placement */
+div.border{ position: absolute; width: 1px; top: 0px; height: 100%; }
+
+ul.info{ padding-top: 25px; }
+ul.info li{ margin-top: 8px; }
+ul.info li:first-child{ margin-top: 0px; }
+ul.info li span.title{ font-family: 'Arvo', Verdana, Geneva, sans-serif; margin-right: 15px; }
+.copyrights{text-indent:-9999px;height:0;line-height:0;font-size:0;overflow:hidden;}
+/* End General Styles */
+
+/* Header */
+
+#header{ padding: 0 30px; }
+#header img.movil-photo{ display: none; }
+#header hgroup h1{ padding-top: 37px; font-size: 40px; }
+#header hgroup h2{ font: 14px Verdana, Geneva, sans-serif; color: #fff; padding: 0; }
+#header a.download{
+	display: block;
+	background: url(../images/bg-black007.png) repeat;
+	height: 20px;
+	font-size: 9px;
+	line-height: 20px;
+	padding: 0 10px;
+	float: left;
+	margin: 45px 0 0 20px;
+	text-align: center;
+}
+#header div.decoration{ width: 29px; height: 8px; position: absolute; top: 0px; right: 30px; }
+#header div.social{ margin-top: 40px; }
+#header div.social a{ display: block; width: 24px; height: 24px; float: left; margin-left: 5px; }
+#header div.social a.flickr{ background-position: -24px 0; }
+#header div.social a.twitter{ background-position: -48px 0; }
+#header div.social a.facebook{ background-position: -72px 0; }
+
+/* End Header */
+
+/* Home */
+
+#home div.border{ left: 310px; }
+#home div.about{ width: 320px; float: right; padding-left: 30px; font-size: 11px; }
+#home div.about div.alignright{ width: 175px; }
+
+/* End Home */
+
+/* Resume */
+
+#resume div.border{ left: 260px; }
+#resume div.alignleft{ width: 230px; }
+#resume div.alignright{ width: 385px; }
+
+section.skills ul.info{ padding-top: 10px; font-size: 11px; }
+span.rating1, span.rating2, span.rating3,
+span.rating4, span.rating5{
+	display: inline-block;
+	width: 70px;
+	height: 10px;
+	margin-right: 10px;
+}
+span.rating2{ background-position: 0 -10px !important; }
+span.rating3{ background-position: 0 -20px !important; }
+span.rating4{ background-position: 0 -30px !important; }
+span.rating5{ background-position: 0 -40px !important; }
+
+section.misc{ clear: both; }
+section.misc h3{ padding: 0; }
+section.misc ul.info{ padding-top: 10px; }
+section.misc ul.info li{ clear: both; }
+section.misc ul.info li span.date{ display: block; width: 80px; margin-right: 10px;  float: left;}
+section.misc ul.info li p{ display: block; float: left; width: 290px; }
+section.misc ul.info li span.charge{ display: block; font-size: 10px; color: #ccc; }
+
+/* End Resume*/
+
+/* Portfolio */
+
+#portfolio a{ display: inline-block; width: 140px; margin: 20px 20px 0 0; vertical-align: top; }
+#portfolio a.last{ margin-right: 0; }
+#portfolio a p{ margin-top: 10px; padding: 0 0 0 15px; cursor: pointer; }
+#portfolio a p span{ display: block; width: 10px; height: 10px; float: left; margin: 3px 0 0 -15px;  }
+#portfolio a.website p span{ background-position: -10px 0 !important; }
+#portfolio a.photo p span{ background-position: -20px 0 !important; }
+
+/* End Portfolio*/
+
+/* Contact */
+
+#contact div.border{ left: 349px; }
+form.contact{ width: 280px; }
+form.contact .inputbox, form.contact textarea{
+	font: 10px Verdana, Geneva, sans-serif;
+	color: #ccc;
+	padding: 10px;
+	background: url(../images/bg-black007.png) repeat;
+}
+form.contact .inputbox{ width: 115px; margin-top: 15px; height: 10px; }
+form.contact textarea{
+	width: 260px;
+	height: 80px;
+	margin-top: 5px;
+	resize: none;
+}
+form.contact input.send{
+	width: 80px;
+	height: 25px;
+	color: #fff;
+	float: right;
+	margin-top: 5px;	
+	font-size: 9px;
+}
+#contact p{ margin: 10px 0 0 0; }
+#contact div.alignright{ width: 300px; }
+#contact div.alignright div#map_canvas{ width: 100%; height: 250px; margin-top: 10px; }
+
+/* End Contact */
+
+/* Footer */
+
+#footer nav ul li{ float: left; }
+#footer nav ul li a{
+	display: block;
+	width: 174px;
+	height: 49px;
+	text-align: center;
+	font: 14px/49px 'Arvo', Verdana, Geneva, sans-serif;
+	border-left: 1px solid;
+	outline: 0;
+}
+#footer nav ul li:first-child a{ border-left: 0; }
+#footer nav ul li a.current{ background: url(../images/bg-black007.png) repeat; }
+
+/* End Footer */
+
+/* Responsive Queries */
+
+/* Tablet and mobiles devices with a max width of 767px */
+
+@media only screen and (max-width: 767px){
+	
+/* General Styles */
+
+#wrapper{ margin: 0 auto; }
+#wrapper div.border{ display: none; }
+#home, #resume, #portfolio, #contact{ clear: both; padding: 30px 20px; }
+
+/* End General Styles*/
+
+/* Header */
+
+#header{ padding: 0 20px; }
+#header hgroup{ float: none; margin-left: -20px; padding: 0 20px 20px; border-bottom: 1px solid; }
+#header div.decoration{ right: 20px; }
+#header a.download{
+	font-size: 12px;
+	height: 40px;
+	line-height: 40px;
+	float: none; 
+	margin: 30px 0 0;
+	padding: 0;
+}
+#header div.social{ float: none; margin: 30px 0 10px 0; }
+#header div.social a{ margin-left: 30px; width: 32px; height: 32px; }
+#header div.social a.dribble{ background-position: 0 -24px; }
+#header div.social a.flickr{ background-position: -32px -24px; }
+#header div.social a.twitter{ background-position: -64px -24px; }
+#header div.social a.facebook{ background-position: -96px -24px; }
+	
+/* End Header */
+
+/* Home */
+
+#home div.info{ margin-bottom: 30px; }
+#home div.about{ clear: both; float: none; padding: 30px 20px 0; border-top: 1px solid; margin-left: -20px;  }
+#home div.alignleft{ float: none; }
+#home div.alignleft ul.info li{ text-align: right; }
+#home div.alignleft ul.info li span.title{ float: left; }
+
+/* End Home */
+
+#portfolio  h3{ padding-top: 0; }
+
+/* Resume */
+
+#resume div.alignleft{ margin-bottom: 30px; }
+#resume div.alignright{
+	clear: both;
+	float: none;
+	padding: 0 20px;
+	margin-left: -20px;
+	border-top: 1px solid;
+	padding-top: 30px;
+}
+
+/* End Resume */
+
+/* Contact */
+
+#contact form.contact{ width: 100%; }
+#contact .inputbox, #contact textarea{ margin-top: 10px; float: none; }
+#contact input.send{ width: 100%; float: none; height: 40px; font-size: 12px; margin-top: 10px; }
+
+/* End Contact */
+
+/* Footer */
+
+#footer nav ul li a.home, #footer nav ul li a.resume{ border-bottom: 1px solid; }
+#footer nav ul li a.portfolio{ border-left: 0; }
+
+/* End Footer */
+
+}
+
+/* Mobile Size: 6400px */
+
+@media only screen and (min-width: 640px) and (max-width: 767px) {
+	
+/* General Styles */
+
+#wrapper{ width: 520px; }
+#home, #resume, #portfolio, #contact{ width: 440px; padding: 30px 40px; }
+div.slider{ width: 520px; }
+
+/* End General Styles*/
+
+/* Header */
+
+#header{ padding: 0 40px; }
+#header hgroup{ width: 440px; padding: 0 40px 20px; margin-left: -40px; }
+#header div.decoration{ right: 40px; }
+#header a.download{ width: 440px; }
+#header div.social{ margin-left: 75px; }
+	
+/* End Header */
+
+/* Home */
+
+#home div.about{ width: 440px; padding: 30px 40px 0; margin-left: -40px; }
+#home div.about div.alignright{ width: 280px; }
+
+/* End Home */
+
+#portfolio a{ width: 125px; margin-right: 26px !important; }
+#portfolio a img{ width: 125px; height: 89px; }
+#portfolio a:nth-child(3n+1){ margin-right: 0 !important; } /* Fixes incorrect placement on Iphone, Ipad */
+
+/* Resume */
+
+#resume div.alignright{ width: 440px; padding: 30px 40px 0; margin-left: -40px; }
+#resume section.misc ul.info li p{ width: 230px; }
+#resume div.alignleft{ width: 440px; }
+#resume div.alignleft section.skills{ float: left; margin-right: 50px;  }
+#resume div.alignleft section.skills:nth-child(even){ margin-right: 0; }
+#resume div.alignleft section.skills:nth-child(2) h3{ padding-top: 0; }
+
+/* End Resume */
+
+/* Contact */
+
+#contact .inputbox{ width: 198px; height: 20px; }
+#contact textarea{ width: 420px; }
+#contact div.alignright{ width: 440px; }
+
+/* End Contact */
+
+/* Footer */
+
+#footer nav ul li a{ width: 259px; }
+
+/* End Footer */
+
+}
+
+/* Mobile Size: 480px */
+
+@media only screen and (min-width: 480px) and (max-width: 639px) {
+	
+/* General Styles */
+
+#wrapper{ width: 360px; }
+#home, #resume, #portfolio, #contact{ width: 320px; }
+div.slider{ width: 360px; }
+
+/* End General Styles*/
+
+/* Header */
+
+#header hgroup{ width: 320px; }
+#header a.download{ width: 320px; }
+#header div.social{ margin-left: 15px; }
+	
+/* End Header */
+
+/* Home */
+
+#home div.about{ width: 320px; }
+
+/* End Home */
+
+#portfolio a{ margin-right: 30px; }
+#portfolio a:nth-child(odd){ margin-right: 0; }
+
+/* Resume */
+
+#resume div.alignright{ width: 320px; }
+#resume section.misc ul.info li p{ width: 230px; }
+
+/* End Resume */
+
+/* Contact */
+
+#contact .inputbox, #contact textarea{ width: 300px; }
+#contact div.alignright{ width: 320px; }
+
+/* End Contact */
+
+/* Footer */
+
+#footer nav ul li a{ width: 179px; }
+
+/* End Footer */
+
+}
+
+/* Mobile Size: 320px */
+
+@media only screen and (max-width: 479px) {
+	
+/* General Styles */
+
+#wrapper{ width: 320px; }
+#home, #resume, #portfolio, #contact{ width: 280px; }
+div.slider{ width: 320px; }
+
+/* End General Styles*/
+
+/* Header */
+
+#header img.movil-photo{ display: block; margin: 0 auto; padding-top: 30px; }
+#header hgroup{ width: 280px; }
+#header a.download{ width: 280px; }
+	
+/* End Header */
+
+/* Home */
+
+#home div.about{ width: 280px; }
+#home div.about img.photo{ display: none; }
+#home div.about div.alignright, #home div.about div.alignright p{ width: 100%; }
+
+/* End Home */
+
+#portfolio a{ width: 125px; }
+#portfolio a img{ width: 125px; height: 89px; }
+#portfolio a:nth-child(odd){ margin-right: 0; }
+
+/* Resume */
+
+#resume div.alignright{ width: 280px; }
+#resume section.misc ul.info li p{ width: 190px; }
+
+/* End Resume */
+
+/* Contact */
+
+#contact .inputbox{ width: 260px; }
+#contact div.alignright{ width: 280px; }
+
+/* End Contact */
+
+/* Footer */
+
+#footer nav ul li a{ width: 159px; }
+
+/* End Footer */
+
+}

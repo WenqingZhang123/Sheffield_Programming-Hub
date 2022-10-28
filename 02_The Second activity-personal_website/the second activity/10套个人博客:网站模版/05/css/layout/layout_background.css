@@ -1,0 +1,53 @@
+/*=====================================
+        Bakground
+=====================================*/
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    background-attachment: fixed;
+    background-clip: border-box;
+    background-color: transparent;
+    background-image: url("../../img/slider/slider-full3.jpg");
+    background-origin: padding-box;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+    position: relative;
+}
+body.noBacground {
+    background-image: url("../../img/patterns/lines1.gif");
+    background-attachment: none;
+    background-clip: none;
+    background-origin: none;
+}
+.header {
+    border: none;
+}
+.header .container {
+    border-top: 3px solid #626262;
+    border-bottom: 1px solid #f5f5f5;
+    background: none repeat scroll 0 0 #FFFFFF;
+}
+/*------ Footer ---------*/
+footer {
+    border: none;
+    overflow:hidden;
+    background-color: none;
+}
+footer .subfooter, footer .footer {
+    border: none;
+}
+footer .subfooter .container {
+    border-top: 3px solid #626262;
+}
+footer .footer .container {
+    border-bottom: 3px solid #626262;
+}
+footer .subfooter .backtotop {
+}
+footer .subfooter .backtotop:hover {
+    height: 40px;
+}

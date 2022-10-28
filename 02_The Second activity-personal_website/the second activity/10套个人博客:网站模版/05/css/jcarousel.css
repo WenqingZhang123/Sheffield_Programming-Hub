@@ -1,0 +1,61 @@
+.carouselslider-wrap {
+    margin:0 auto;
+    max-width: 940px;
+}
+.carouselslider {
+    list-style:none;
+    margin: 0px;
+}
+.carouselslider li {
+    width:220px;
+    margin:0 20px 0px 0px;
+}
+.carouselslider li.last {
+    margin: 0px;
+    padding: 0px;
+}
+.jcarousel-clip {
+    overflow:hidden;
+}
+.carouselslider-wrap .jcarousel-prev, .carouselslider-wrap .jcarousel-next {
+    display:block;
+    background-color: transparent;
+    background-image: url("../img/jcarousel-arrow.png") !important;
+}
+.carouselslider-wrap .jcarousel-prev {
+    background-position:0 -11px;
+    top: 20px;
+    right: 20px;
+}
+.carouselslider-wrap .jcarousel-next {
+    background-position:-7px -11px;
+    top: 20px;
+    right: 2px;
+}
+
+.carouselslider-wrap .jcarousel-prev-disabled {
+    background-position:0 0px;
+}
+.carouselslider-wrap .jcarousel-next-disabled {
+    background-position:-7px 0px;
+}
+
+.carouselslider-wrap .jcarousel-next, .carouselslider-wrap .jcarousel-prev {
+    border: 0 none !important;
+    position:absolute;
+    border-radius: 0 0 0 0 !important;
+    cursor: pointer;
+    display: block;
+    height: 11px;
+    padding: 0;
+    text-indent: -9999px;
+    width: 7px;
+    -webkit-transition: all 200ms ease 0s;
+  	-moz-transition: all 200ms ease 0s;
+  	-ms-transition: all 200ms ease 0s;
+  	-o-transition: all 200ms ease 0s;
+  	transition: all 200ms ease 0s;
+}
+.carouselslider-wrap .jcarousel-next:hover, .carouselslider-wrap .jcarousel-prev:hover {opacity: 0.5;}
+.carouselslider-wrap .jcarousel-next-disabled:hover, .carouselslider-wrap .jcarousel-prev-disabled:hover {opacity: 1;}
+

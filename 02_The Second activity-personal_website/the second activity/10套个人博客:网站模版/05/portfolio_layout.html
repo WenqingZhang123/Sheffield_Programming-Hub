@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		
+		<meta name="keywords" content="" />
+		<meta name="description" content="" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+		<title>Blablabla - Portfolio with layout</title>
+
+		<link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+		<link href="img/favicon.ico" rel="icon" type="image/x-icon" />
+
+		<link href="css/bootstrap.css" rel="stylesheet" />
+		<link href="css/style.css" rel="stylesheet" />
+		<link href="css/bootstrap-responsive.css" rel="stylesheet" />
+		<link href="css/style-panel.css" rel="stylesheet" />
+		<link href="css/jcarousel.css" rel="stylesheet" />
+		<link href="css/prettyPhoto.css" rel="stylesheet" />
+		<link href="css/camera.css" rel="stylesheet" />
+		<link href="css/superfish.css" rel="stylesheet" />
+		<link href="css/sorting.css" rel="stylesheet" />
+		<link href="css/supersized.css" rel="stylesheet" />
+		<link href="css/animate.css" rel="stylesheet" />
+		<link href="css/onebyone.css" rel="stylesheet" />
+		<link href="css/jquery.onebyone.css" rel="stylesheet" />
+		<link id="css_pattern" href="css/patterns/lines1.css" rel="stylesheet" />
+		<link id="css_color" href="css/colors/color_red.css" rel="stylesheet" />
+		<link id="css_layout" href="css/layout/layout_boxed.css" rel="stylesheet" />
+		<link href="font/stylesheet.css" rel="stylesheet" />
+		<link href="css/supersized.shutter.css" rel="stylesheet" />
+
+		<script src="js/jquery-1.7.2.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script src="js/jquery.preloader.js"></script>
+		<script src="js/main.js"></script>
+		<script src="js/jquery.jcarousel.min.js"></script>
+		<script src='js/jquery.accordion.js'></script>
+		<script src='js/jquery.prettyPhoto.js'></script>
+		<script src='js/jquery.mobile.customized.min.js'></script>
+		<script src='js/jquery.easing.1.3.js'></script>
+		<script src='js/jquery.cookie.js'></script>
+		<script src='js/camera.min.js'></script>
+		<script src='js/jquery.isotope.min.js'></script>
+		<script src='js/sorting.js'></script>
+		<script src='js/supersized.3.2.7.js'></script>
+		<script src='js/supersized.shutter.js'></script>
+		<script src='js/superfish.js'></script>
+		<script src='js/them_setting.js'></script>
+		<script src="js/style_panel.js"></script>
+		<script src="js/style_panel_inc.js"></script>
+		<script src="js/jquery.hoverdir.js"></script>
+		<script src="js/jquery.onebyone.min.js"></script>
+		<script src="js/jquery.elastislide.js"></script>
+		<script src='js/flickr_tweet.js'></script>
+		<script src='js/jquery.tweet.js'></script>
+		<!--[if IE]>
+		<script src="js/html5.js"></script>
+		<![endif]-->
+
+		<script type="text/javascript">
+			var preloadimg = '/img/preload_img.gif';
+		</script>
+
+		<script type="text/javascript">
+			jQuery(function($) {
+
+				$.supersized({
+
+					// Functionality
+					slideshow : 1, // Slideshow on/off
+					autoplay : 1, // Slideshow starts playing automatically
+					start_slide : 1, // Start slide (0 is random)
+					stop_loop : 0, // Pauses slideshow on last slide
+					random : 0, // Randomize slide order (Ignores start slide)
+					slide_interval : 6000, // Length between transitions
+					transition : 1, // 0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom, 5-Slide Left, 6-Carousel Right, 7-Carousel Left
+					transition_speed : 1000, // Speed of transition
+					new_window : 1, // Image links open in new window/tab
+					pause_hover : 0, // Pause slideshow on hover
+					keyboard_nav : 1, // Keyboard navigation on/off
+					performance : 1, // 0-Normal, 1-Hybrid speed/quality, 2-Optimizes image quality, 3-Optimizes transition speed // (Only works for Firefox/IE, not Webkit)
+					image_protect : 1, // Disables image dragging and right click with Javascript
+
+					// Size & Position
+					min_width : 0, // Min width allowed (in pixels)
+					min_height : 0, // Min height allowed (in pixels)
+					vertical_center : 1, // Vertically center background
+					horizontal_center : 1, // Horizontally center background
+					fit_always : 0, // Image will never exceed browser width or height (Ignores min. dimensions)
+					fit_portrait : 1, // Portrait images will not exceed browser height
+					fit_landscape : 0, // Landscape images will not exceed browser width
+
+					// Components
+					slide_links : 'blank', // Individual links for each slide (Options: false, 'num', 'name', 'blank')
+					thumb_links : 1, // Individual thumb links for each slide
+					thumbnail_navigation : 0, // Thumbnail navigation
+					slides : [// Slideshow Images
+					{
+						image : 'img/slider/slider-full1.jpg',
+						title : '<h4>Lorem sit amet </h4><p>Mauris nisl odio, semper ac luctus et, rhoncus a risus. Morbi eget diam quis risus aliquam condimentum nec ornare neque. Pellentesque eget faucibus tortor. Nam rutrum dignissim nisl, vel feugiat libero dictum id. Suspendisse eget dolor odio, a rhoncus ipsum. Aliquam erat volutpat. Pellentesque vestibulum, ante vitae ultricies viverra, tellus odio porttitor mi, at cursus urna lacus at augue. Fusce porttitor felis et leo posuere aliquet. <a href="#">Cras suscipit,</a> nunc vel lacinia luctus, tortor orci facilisis dolor, in porta arcu purus a lectus.</p><p>Suspendisse aliquet nulla tellus. Curabitur tempor commodo justo, vitae rhoncus magna ornare non. Aenean tempor porttitor purus, nec venenatis turpis sodales vel. Sed enim leo, rutrum eget lacinia eu, mattis ut velit. Quisque nisi eros, sollicitudin sit amet ornare in, suscipit id enim. Nulla facilisi. Morbi lectus dolor, sodales ut mattis quis, <a href="#">tincidunt ut</a> ante. Donec lorem lacus, interdum et viverra id, tempor ac nisl. In hac habitasse platea dictumst. Aliquam erat volutpat. Maecenas porttitor ligula eu nulla egeistas consectetur eget convallis quam adipiscing.</p>',
+						thumb : 'img/slider/slider-full-thumb/slider-full-thumb1.jpg',
+						url : ''
+					}, {
+						image : 'img/slider/slider-full2.jpg',
+						title : '<h4>Lorem ipsum dolor sit amet </h4><p>Mauris nisl odio, semper ac luctus et, rhoncus a risus. Morbi eget diam quis risus aliquam condimentum nec ornare neque. Pellentesque eget faucibus tortor. Nam rutrum dignissim nisl, vel feugiat libero dictum id. Suspendisse eget dolor odio, a rhoncus ipsum. Aliquam erat volutpat. Pellentesque vestibulum, ante vitae ultricies viverra, tellus odio porttitor mi, at cursus urna lacus at augue. Fusce porttitor felis et leo posuere aliquet. <a href="#">Cras suscipit,</a> nunc vel lacinia luctus, tortor orci facilisis dolor, in porta arcu purus a lectus.</p><p class="gray">Cras vitae augue ut nibh convallis sagittis pharetra et velit. Suspendisse nec nisi a libero mollis congue. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent neque massa, porta eu rhoncus quis, scelerisque ut nisi. Donec eget nisl id enim dignissim ullamcorper.</p><p>Suspendisse aliquet nulla tellus. Curabitur tempor commodo justo, vitae rhoncus magna ornare non. Aenean tempor porttitor purus, nec venenatis turpis sodales vel. Sed enim leo, rutrum eget lacinia eu, mattis ut velit. Quisque nisi eros, sollicitudin sit amet ornare in, suscipit id enim. Nulla facilisi. Morbi lectus dolor, sodales ut mattis quis, <a href="#">tincidunt ut</a> ante. Donec lorem lacus, interdum et viverra id, tempor ac nisl. In hac habitasse platea dictumst. Aliquam erat volutpat. Maecenas porttitor ligula eu nulla egeistas consectetur eget convallis quam adipiscing.</p>',
+						thumb : 'img/slider/slider-full-thumb/slider-full-thumb2.jpg',
+						url : ''
+					}, {
+						image : 'img/slider/slider-full3.jpg',
+						title : '<h4>Mauris nisl odio, semper ac luctus et</h4><p>Mauris nisl odio, semper ac luctus et, rhoncus a risus. Morbi eget diam quis risus aliquam condimentum nec ornare neque. Pellentesque eget faucibus tortor. Nam rutrum dignissim nisl, vel feugiat libero dictum id. Suspendisse eget dolor odio, a rhoncus ipsum. Aliquam erat volutpat. Pellentesque vestibulum, ante vitae ultricies viverra, tellus odio porttitor mi, at cursus urna lacus at augue. Fusce porttitor felis et leo posuere aliquet. <a href="#">Cras suscipit,</a> nunc vel lacinia luctus, tortor orci facilisis dolor, in porta arcu purus a lectus.</p><p class="gray">Cras vitae augue ut nibh convallis sagittis pharetra et velit. Suspendisse nec nisi a libero mollis congue. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent neque massa, porta eu Morbi lectus dolor, sodales ut mattis quis, <a href="#">tincidunt ut</a> ante. Donec lorem lacus, interdum et viverra id, tempor ac nisl. In hac habitasse platea dictumst. Aliquam erat volutpat. Maecenas porttitor ligula eu nulla egeistas consectetur eget convallis quam adipiscing.</p>',
+						thumb : 'img/slider/slider-full-thumb/slider-full-thumb3.jpg',
+						url : ''
+					}, {
+						image : 'img/slider/slider-full4.jpg',
+						title : '<h4>Lorem ipsum dolor sit amet </h4><p>Mauris nisl odio, semper ac luctus et, rhoncus a risus. Morbi eget diam quis risus aliquam condimentum nec ornare neque. Pellentesque eget faucibus tortor. Nam rutrum dignissim nisl, vel feugiat libero dictum id. Suspendisse eget dolor odio, a rhoncus ipsum. Aliquam erat volutpat. Pellentesque vestibulum, ante vitae ultricies viverra, tellus odio porttitor mi, at cursus urna lacus at augue ut nibh convallis sagittis pharetra et velit. Suspendisse nec nisi a libero mollis congue. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent neque massa, porta eu rhoncus quis, scelerisque ut nisi. Donec eget nisl id enim dignissim ullamcorper.</p><p>Suspendisse aliquet nulla tellus. Curabitur tempor commodo justo, vitae rhoncus magna ornare non. Aenean tempor porttitor purus, nec venenatis turpis sodales vel. Sed enim leo, rutrum eget lacinia eu, mattis ut velit. Quisque nisi eros, sollicitudin sit amet ornare in, suscipit id enim. Nulla facilisi. Morbi lectus dolor, sodales ut mattis quis, <a href="#">tincidunt ut</a> ante. Donec lorem lacus, interdum et viverra id, tempor ac nisl. In hac habitasse platea dictumst. Aliquam erat volutpat. Maecenas porttitor ligula eu nulla egeistas consectetur eget convallis quam adipiscing.</p>',
+						thumb : 'img/slider/slider-full-thumb/slider-full-thumb4.jpg',
+						url : ''
+					}, {
+						image : 'img/slider/slider-full5.jpg',
+						title : '<h4>Lorem sit amet </h4><p>Mauris nisl odio, semper ac luctus et, rhoncus a risus. Morbi eget diam quis risus aliquam condimentum nec ornare neque. Pellentesque eget faucibus tortor. Nam rutrum dignissim nisl, vel feugiat libero dictum id. Suspendisse eget dolor odio, a rhoncus ipsum. Aliquam erat volutpat. Pellentesque vestibulum, ante vitae ultricies viverra, tellus odio porttitor mi, at cursus urna lacus at augue. Fusce porttitor felis et leo posuere aliquet. <a href="#">Cras suscipit,</a> nunc vel lacinia luctus, tortor orci facilisis dolor, in porta arcu purus a lectus.</p><p>Suspendisse aliquet nulla tellus. Curabitur tempor commodo justo, vitae rhoncus magna ornare non. Aenean tempor porttitor purus, nec venenatis turpis sodales vel. Sed enim leo, rutrum eget lacinia eu, mattis ut velit. Quisque nisi eros, sollicitudin sit amet ornare in, suscipit id enim. Nulla facilisi. Morbi lectus dolor, sodales ut mattis quis, <a href="#">tincidunt ut</a> ante. Donec lorem lacus, interdum et viverra id, tempor ac nisl. In hac habitasse platea dictumst. Aliquam erat volutpat. Maecenas porttitor ligula eu nulla egeistas consectetur eget convallis quam adipiscing.</p>',
+						thumb : 'img/slider/slider-full-thumb/slider-full-thumb5.jpg',
+						url : ''
+					}, {
+						image : 'img/slider/slider-full6.jpg',
+						title : '<h4>Lorem ipsum dolor sit amet </h4><p>Mauris nisl odio, semper ac luctus et, rhoncus a risus. Morbi eget diam quis risus aliquam condimentum nec ornare neque. Pellentesque eget faucibus tortor. Nam rutrum dignissim nisl, vel feugiat libero dictum id. Suspendisse eget dolor odio, a rhoncus ipsum. Aliquam erat volutpat. Pellentesque vestibulum, ante vitae ultricies viverra, tellus odio porttitor mi, at cursus urna lacus at augue. Fusce porttitor felis et leo posuere aliquet. <a href="#">Cras suscipit,</a> nunc vel lacinia luctus, tortor orci facilisis dolor, in porta arcu purus a lectus.</p><p class="gray">Cras vitae augue ut nibh convallis sagittis pharetra et velit. Suspendisse nec nisi a libero mollis congue. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent neque massa, porta eu rhoncus quis, scelerisque ut nisi. Donec eget nisl id enim dignissim ullamcorper.</p><p>Suspendisse aliquet nulla tellus. Curabitur tempor commodo justo, vitae rhoncus magna ornare non. Aenean tempor porttitor purus, nec venenatis turpis sodales vel. Sed enim leo, rutrum eget lacinia eu, mattis ut velit. Quisque nisi eros, sollicitudin sit amet ornare in, suscipit id enim. Nulla facilisi. Morbi lectus dolor, sodales ut mattis quis, <a href="#">tincidunt ut</a> ante. Donec lorem lacus, interdum et viverra id, tempor ac nisl. In hac habitasse platea dictumst. Aliquam erat volutpat. Maecenas porttitor ligula eu nulla egeistas consectetur eget convallis quam adipiscing.</p>',
+						thumb : 'img/slider/slider-full-thumb/slider-full-thumb6.jpg',
+						url : ''
+					}, {
+						image : 'img/slider/slider-full7.jpg',
+						title : '<h4>Mauris nisl odio, semper ac luctus et</h4><p>Mauris nisl odio, semper ac luctus et, rhoncus a risus. Morbi eget diam quis risus aliquam condimentum nec ornare neque. Pellentesque eget faucibus tortor. Nam rutrum dignissim nisl, vel feugiat libero dictum id. Suspendisse eget dolor odio, a rhoncus ipsum. Aliquam erat volutpat. Pellentesque vestibulum, ante vitae ultricies viverra, tellus odio porttitor mi, at cursus urna lacus at augue. Fusce porttitor felis et leo posuere aliquet. <a href="#">Cras suscipit,</a> nunc vel lacinia luctus, tortor orci facilisis dolor, in porta arcu purus a lectus.</p><p class="gray">Cras vitae augue ut nibh convallis sagittis pharetra et velit. Suspendisse nec nisi a libero mollis congue. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent neque massa, porta eu Morbi lectus dolor, sodales ut mattis quis, <a href="#">tincidunt ut</a> ante. Donec lorem lacus, interdum et viverra id, tempor ac nisl. In hac habitasse platea dictumst. Aliquam erat volutpat. Maecenas porttitor ligula eu nulla egeistas consectetur eget convallis quam adipiscing.</p>',
+						thumb : 'img/slider/slider-full-thumb/slider-full-thumb7.jpg',
+						url : ''
+					}, {
+						image : 'img/slider/slider-full9.jpg',
+						title : '<h4>Lorem ipsum dolor sit amet </h4><p>Mauris nisl odio, semper ac luctus et, rhoncus a risus. Morbi eget diam quis risus aliquam condimentum nec ornare neque. Pellentesque eget faucibus tortor. Nam rutrum dignissim nisl, vel feugiat libero dictum id. Suspendisse eget dolor odio, a rhoncus ipsum. Aliquam erat volutpat. Pellentesque vestibulum, ante vitae ultricies viverra, tellus odio porttitor mi, at cursus urna lacus at augue ut nibh convallis sagittis pharetra et velit. Suspendisse nec nisi a libero mollis congue. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent neque massa, porta eu rhoncus quis, scelerisque ut nisi. Donec eget nisl id enim dignissim ullamcorper.</p><p>Suspendisse aliquet nulla tellus. Curabitur tempor commodo justo, vitae rhoncus magna ornare non. Aenean tempor porttitor purus, nec venenatis turpis sodales vel. Sed enim leo, rutrum eget lacinia eu, mattis ut velit. Quisque nisi eros, sollicitudin sit amet ornare in, suscipit id enim. Nulla facilisi. Morbi lectus dolor, sodales ut mattis quis, <a href="#">tincidunt ut</a> ante. Donec lorem lacus, interdum et viverra id, tempor ac nisl. In hac habitasse platea dictumst. Aliquam erat volutpat. Maecenas porttitor ligula eu nulla egeistas consectetur eget convallis quam adipiscing.</p>',
+						thumb : 'img/slider/slider-full-thumb/slider-full-thumb9.jpg',
+						url : ''
+					}],
+
+					// Theme Options
+					progress_bar : 0, // Timer for each slide
+					mouse_scrub : 1
+
+				});
+			});
+
+		</script>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
+	<body>
+		<header class="header">
+			<div class="container">
+				<div class="row">
+					<ul id="responsive_menu">
+						<li>
+							menu
+						</li>
+					</ul>
+					<div class="span4 logo">
+						<a href="index.html"><img alt="" src="img/logo.png" class="logoimg" /></a>
+					</div>
+					<nav class="span12">
+						<div class="menu-main">
+							<ul id="main-menu" class="menu">
+								<li class="menu-item">
+									<a href="index.html" title="Welcome Page">Home</a>
+								</li>
+								<li class="menu-item current-menu-item">
+									<a href="#" title="dolor sit amet">Pages</a>
+									<ul class="sub-menu">
+										<li class="menu-item">
+											<a href="index_layout.html">Homepage 1</a>
+										</li>
+										<li class="menu-item">
+											<a href="index-fwslider.html">Homepage 2</a>
+										</li>
+										<li class="menu-item">
+											<a href="index.html">Homepage 3</a>
+										</li>
+										<li class="menu-item">
+											<a href="about.html">About</a>
+										</li>
+										<li class="menu-item">
+											<a href="#">Portfolio</a>
+											<ul class="sub-menu">
+												<li class="menu-item">
+													<a href="portfolio-1.html">1 column portfolio</a>
+												</li>
+												<li class="menu-item">
+													<a href="portfolio-2.html">2 column portfolio</a>
+												</li>
+												<li class="menu-item">
+													<a href="portfolio-3.html">3 column portfolio</a>
+												</li>
+												<li class="menu-item">
+													<a href="portfolio-4.html">4 column portfolio</a>
+												</li>
+												<li class="menu-item">
+													<a href="portfolio_slider.html">Slider portfolio</a>
+												</li>
+												<li class="menu-item">
+													<a href="portfolio-post.html">Portfolio post</a>
+												</li>
+												<li class="menu-item">
+													<a href="portfolio_layout.html">Fullscreen slider portfolio</a>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+								<li class="menu-item">
+									<a href="#" title="vestibulum">Features</a>
+									<ul class="sub-menu">
+										<li class="menu-item">
+											<a href="shortcodes.html">Shortcodes</a>
+										</li>
+										<li class="menu-item">
+											<a href="typographty.html">Typography</a>
+										</li>
+									</ul>
+								</li>
+								<li class="menu-item">
+									<a href="#" title="vel accumsan">Blog</a>
+									<ul class="sub-menu">
+										<li class="menu-item">
+											<a href="blog.html">Full width</a>
+										</li>
+										<li class="menu-item">
+											<a href="blog_2col.html">2 columns blog</a>
+										</li>
+										<li class="menu-item">
+											<a href="blog_post.html">Blog post</a>
+										</li>
+										<li class="menu-item">
+											<a href="#">With sidebar</a>
+											<ul class="sub-menu">
+												<li class="menu-item">
+													<a href="blog_sidebar_left.html">Left sidebar</a>
+												</li>
+												<li class="menu-item">
+													<a href="blog_sidebar_right.html">Right sidebar</a>
+												</li>
+												<li class="menu-item">
+													<a href="blog_post_sidebar.html">Blog post</a>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+								<li class="menu-item">
+									<a href="#" title="vivamus eget">Contact</a>
+									<ul class="sub-menu">
+										<li class="menu-item">
+											<a href="contact_full.html">Full width</a>
+										</li>
+										<li class="menu-item">
+											<a href="contact_sidebar.html">With sidebar</a>
+										</li>
+										<li class="menu-item">
+											<a href="contact-sidebar-fwmap.html">With fullwidth map</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<!-- Header End -->
+		<div class="container responsive-menu-wrapper">
+			<div class="row">
+				<div class="responsive-menu-items span16"></div>
+			</div>
+		</div>
+		<!-- Responsive Menu -->
+		<div class="container portfolio-supersizecaption">
+			<div class="row">
+				<div class="span16">
+					<div id="thumb-tray" class="load-item"></div>
+					<a class="load-item" id="prevslide"></a>
+					<a class="load-item" id="nextslide"></a>
+					<a class="pause load-item" id="pauseplay" href="javascript:void(0)"></a>
+					<a id="tray-button" class="load-item"></a>
+					<!--	<div class="load-item" id="progress-back" style="display: block;">
+					<div id="progress-bar" style="left: -53.3855px;"></div>
+					</div> -->
+				</div>
+			</div>
+		</div>
+		<div class="container main-container portfolio-slidecaption">
+			<div class="row">
+				<div class="span16">
+					<div id="slidecaption" class="portfolio-slidecaption"></div>
+				</div>
+			</div>
+		</div>
+		<!-- End Main Container  -->
+		<div class="social_responsive container">
+			<div class="row">
+				<div class="span16">
+					<ul>
+						<li>
+							<a class="social_facebook" title="Facebook" href="http://www.facebook.com/"></a>
+						</li>
+						<li>
+							<a class="social_twitter" title="Twitter" href="https://twitter.com/"></a>
+						</li>
+						<li>
+							<a class="social_flickr" title="Flickr" href="http://www.flickr.com/"></a>
+						</li>
+						<li>
+							<a class="social_dribbble" title="Dribbble" href="http://dribbble.com/"></a>
+						</li>
+						<li>
+							<a class="social_delicious" title="Delicious" href="http://delicious.com/"></a>
+						</li>
+						<li>
+							<a class="social_pinterest" title="Pinterest" href="http://pinterest.com/"></a>
+						</li>
+						<li>
+							<a class="social_digg" title="Digg" href="http://digg.com/"></a>
+						</li>
+						<li>
+							<a class="social_vimeo" title="Vimeo" href="http://vimeo.com/"></a>
+						</li>
+						<li>
+							<a class="social_rss" title="Rss" href="#"></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- Social Responsive -->
+		<footer>
+			<div class="subfooter">
+				<div class="container">
+					<div class="row">
+						<div class="span16">
+							<div class="triangle-down"></div>
+							<div class="shortcode_column one_fourth">
+								<h4>popular posts</h4>
+								<div class="widget_block">
+									<ul class="popular_post">
+										<li>
+											<img src="img/img-popular_posts_01.jpg" alt="" />
+											<div class="popular_posts_content">
+												<p>
+													Libero eu frina consectetur nisl ligula mollis metus.
+												</p>
+												<p>
+													<a class="read-more" href="blog_post.html">Read more... </a>
+												</p>
+											</div>
+										</li>
+										<li>
+											<p>
+												Consectetur nisl ligula olis metus esget  vesyibulum vivamus acaliquet vestibul erat vivamus egestas dolor amet.
+											</p>
+											<p>
+												<a class="read-more" href="blog_post.html">Read more... </a>
+											</p>
+										</li>
+										<li class="last">
+											<img src="img/img-popular_posts_02.jpg" alt="" />
+											<div class="popular_posts_content">
+												<p>
+													Frina consectetur nisl ligula molis metus terdum
+												</p>
+												<p>
+													<a class="read-more" href="blog_post.html">Read more... </a>
+												</p>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="shortcode_column one_fourth">
+								<h4>testimonials</h4>
+								<div class="widget_block">
+									<ul class="testimonials">
+										<li>
+											<p>
+												<span class="footer-icon type6"></span>Eu frina consectetur nisl eget ligula mollis vivamus vestibulum metus donec et velit elit, sed tempus quam. Lorem ac ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu diam diam.
+											</p>
+											<p class="author">
+												Anna Smith. New York
+											</p>
+										</li>
+										<li class="last">
+											<p>
+												<span class="footer-icon type6"></span>Onsectetur nisl eget ligula mollis vivamus vestibulum metus donec et velit elit, sed ac ipsum. Praesent et tortor sit amet magna tempus bibendum. Morbi venenatis varius interdum. Donec placerat ullamcorper tellus ullamcorper.
+											</p>
+											<p class="author">
+												John Doe. California
+											</p>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="shortcode_column one_fourth">
+								<h4>latest tweets</h4>
+								<div class="widget_block">
+									<div class="tweet_block"></div>
+								</div>
+							</div>
+							<div class="shortcode_column one_fourth last">
+								<h4>contact us</h4>
+								<div class="widget_block">
+									<ul class="list_contacts">
+										<li class="contacts_address">
+											<span class="footer-icon type1"></span>5512 Lorem Ipsum Vestibulum
+										</li>
+										<li class="contacts_phone">
+											<span class="footer-icon type5"></span>
+											<p>
+												+1 800 450 6935
+												<br />
+												+1 800 450 6935
+											</p>
+										</li>
+										<li class="contacts_skype">
+											<span class="footer-icon type3"></span>compname
+										</li>
+										<li class="contacts_email">
+											<span class="footer-icon type2"></span><a href="mailto:mail@companyname.com">mail@companyname.com</a>
+										</li>
+									</ul>
+								</div>
+								<p>
+									Venenatis aliquam mi, ac sollicitudin justo consequat lobortis.
+								</p>
+								<p>
+									Ut tempus pretium auctor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. <a href="blog_post.html">Eget sodales amet dolor.</a>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End Sub Footer  -->
+			<div class="footer">
+				<div class="container">
+					<div class="row">
+						<div class="span16">
+							<div class="copyright">
+								<p>
+									&copy; 2020 Blablabla! All rights reserved
+								</p>
+							</div>
+							<ul class="social icon">
+								<li>
+									<a class="social_facebook" title="Facebook" href="http://www.facebook.com/"></a>
+								</li>
+								<li>
+									<a class="social_twitter" title="Twitter" href="https://twitter.com/"></a>
+								</li>
+								<li>
+									<a class="social_flickr" title="Flickr" href="http://www.flickr.com/"></a>
+								</li>
+								<li>
+									<a class="social_pinterest" title="Pinterest" href="http://pinterest.com/"></a>
+								</li>
+								<li>
+									<a class="social_digg" title="Digg" href="http://digg.com/"></a>
+								</li>
+								<li>
+									<a class="social_vimeo" title="Vimeo" href="http://vimeo.com/"></a>
+								</li>
+								<li>
+									<a class="social_rss" title="Rss" href="#"></a>
+								</li>
+							</ul>
+							<div class="social_responsive_toggle">
+								<span>+</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- End Footer  -->
+		<div class="backtotop">
+			<span>back</span>to top
+		</div>
+		<!-- End Style Panel  -->
+	</body>
+</html>

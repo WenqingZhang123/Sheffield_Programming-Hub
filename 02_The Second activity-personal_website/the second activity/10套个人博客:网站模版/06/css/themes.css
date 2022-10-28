@@ -1,0 +1,181 @@
+/* CSS Document */
+
+/* Blue Theme */
+
+/* Header */
+#blue #header hgroup h1{ color: #FFFF00; }
+#blue div.decoration{ background-color: #FFFF00; }
+#blue div.social a{ background: url(../images/social-blue.png) no-repeat; }
+/* General Styles */
+#blue #wrapper{ background: url(../images/bg-blue.png) repeat;}
+#blue *{ border-color: #27A7D3 !important; }
+#blue div.border{ background-color: #27A7D3; }
+#blue a{ color: #E6E6E6; }
+#blue a.current{ color: #FFFF00 !important; }
+#blue ul.info li span.title{ color: #00CCFF; }
+#blue div.content h1, #blue div.content h2, #blue div.content h3,
+#blue div.content h4, #blue div.content h5, #blue div.content h6{ color: #00CCFF; }
+/* Resume */
+#blue span.rating1, #blue span.rating2, #blue span.rating3,
+#blue span.rating4, #blue span.rating5{ background: url(../images/skills-blue.png) no-repeat; }
+/* Portfolio*/
+#blue #portfolio a p span{ background: url(../images/portfolio-blue.png) no-repeat; }
+/* Contact */
+#blue #contact input.send{ background: #27A7D3; }
+
+/* End Blue Theme */
+
+/* Gray Theme */
+
+/* Header */
+#gray #header hgroup h1{ color: #FFF; }
+#gray div.decoration{ background-color: #FFCC00; }
+#gray div.social a{ background: url(../images/social-gray.png) no-repeat; }
+/* General Styles */
+#gray #wrapper{ background: url(../images/bg-gray.png) repeat; }
+#gray *{ border-color: #9E9A62 !important; }
+#gray div.border{ background-color: #9E9A62; }
+#gray a{ color: #fff; }
+#gray a.current{ color: #FFCC00 !important; }
+#gray ul.info li span.title{ color: #FFCC00; }
+#gray div.content h1, #gray div.content h2, #gray div.content h3,
+#gray div.content h4, #gray div.content h5, #gray div.content h6{ color: #FFCC00; }
+/* Resume */
+#gray span.rating1, #gray span.rating2, #gray span.rating3,
+#gray span.rating4, #gray span.rating5{ background: url(../images/skills-gray.png) no-repeat; }
+/* Portfolio*/
+#gray #portfolio a p span{ background: url(../images/portfolio-gray.png) no-repeat; }
+/* Contact */
+#gray #contact input.send{ background: #9E9A62; }
+
+/* End Gray Theme */
+
+/* Red Theme */
+
+/* Header */
+#red #header hgroup h1{ color: #F2E3B6; }
+#red div.decoration{ background-color: #fff; }
+#red div.social a{ background: url(../images/social-red.png) no-repeat; }
+/* General Styles */
+#red #wrapper{ background: url(../images/bg-red.png) repeat; }
+#red *{ border-color: #CE8C75 !important; }
+#red div.border{ background-color: #CE8C75; }
+#red a{ color: #fff; }
+#red a.current{ color: #861D18 !important; }
+#red ul.info li span.title{ color: #861D18;  }
+#red div.content h1, #red div.content h2, #red div.content h3,
+#red div.content h4, #red div.content h5, #red div.content h6{ color: #F2E3B6; }
+/* Resume */
+#red span.rating1, #red span.rating2, #red span.rating3,
+#red span.rating4, #red span.rating5{ background: url(../images/skills-red.png) no-repeat; }
+/* Portfolio*/
+#red #portfolio a p span{ background: url(../images/portfolio-red.png) no-repeat; }
+/* Contact */
+#red #contact .inputbox, #red #contact textarea{ color: #fff; }
+#red #contact input.send{ background: #953530; }
+
+/* End Red Theme */
+
+/* Orange Theme */
+
+/* Header */
+#orange #header hgroup h1{ color: #FFF; }
+#orange div.decoration{ background-color: #F2F1B7; }
+#orange div.social a{ background: url(../images/social-orange.png) no-repeat; }
+/* General Styles */
+#orange #wrapper{ background: url(../images/bg-orange.png) repeat; }
+#orange *{ border-color: #E7C793 !important; }
+#orange div.border{ background-color: #E7C793; }
+#orange a{ color: #FCFCFC; }
+#orange a.current{ color: #FAD241 !important; }
+#orange ul.info li span.title{ color: #FAD241; }
+#orange div.content h1, #orange div.content h2, #orange div.content h3,
+#orange div.content h4, #orange div.content h5, #orange div.content h6{ color: #FAD241; }
+/* Resume */
+#orange span.rating1, #orange span.rating2, #orange span.rating3,
+#orange span.rating4, #orange span.rating5{ background: url(../images/skills-orange.png) no-repeat; }
+/* Portfolio*/
+#orange #portfolio a p span{ background: url(../images/portfolio-orange.png) no-repeat; }
+/* Contact */
+#orange #contact .inputbox, #orange #contact textarea{ color: #fff; }
+#orange #contact input.send{ background: #FAD241; }
+
+/* End Orange Theme */
+
+/* Green Theme */
+
+/* Header */
+#green #header hgroup h1{ color: #FFF; }
+#green div.decoration{ background-color: #fff; }
+#green div.social a{ background: url(../images/social-green.png) no-repeat; }
+/* General Styles */
+#green #wrapper{ background: url(../images/bg-green.png) repeat; }
+#green *{ border-color: #C0CA6D !important; }
+#green div.border{ background-color: #C0CA6D; }
+#green a{ color: #fff; }
+#green a.current{ color: #026873 !important; }
+#green ul.info li span.title{ color: #026873; }
+#green div.content h1, #green div.content h2, #green div.content h3,
+#green div.content h4, #green div.content h5, #green div.content h6{ color: #026873; }
+/* Resume */
+#green span.rating1, #green span.rating2, #green span.rating3,
+#green span.rating4, #green span.rating5{ background: url(../images/skills-green.png) no-repeat; }
+/* Portfolio*/
+#green #portfolio a p span{ background: url(../images/portfolio-green.png) no-repeat; }
+/* Contact */
+#green #contact .inputbox, #green #contact textarea{ color: #fff; }
+#green #contact input.send{ background: #026873; }
+
+/* End Green Theme */
+
+/* Purple Theme */
+
+/* Header */
+#purple #header hgroup h1{ color: #FFF1B5; }
+#purple div.decoration{ background-color: #fff; }
+#purple div.social a{ background: url(../images/social-purple.png) no-repeat; }
+/* General Styles */
+#purple #wrapper{ background: url(../images/bg-purple.png) repeat; }
+#purple *{ border-color: #C498A0 !important; }
+#purple div.border{ background-color: #C498A0; }
+#purple a{ color: #fff; }
+#purple a.current{ color: #3C2C39 !important; }
+#purple ul.info li span.title{ color: #FFA3A3; }
+#purple div.content h1, #purple div.content h2, #purple div.content h3,
+#purple div.content h4, #purple div.content h5, #purple div.content h6{ color: #FFA3A3; }
+/* Resume */
+#purple span.rating1, #purple span.rating2, #purple span.rating3,
+#purple span.rating4, #purple span.rating5{ background: url(../images/skills-purple.png) no-repeat; }
+/* Portfolio*/
+#purple #portfolio a p span{ background: url(../images/portfolio-purple.png) no-repeat; }
+/* Contact */
+#purple #contact .inputbox, #purple #contact textarea{ color: #fff; }
+#purple #contact input.send{ background: #C498A0; }
+
+/* End Purple Theme */
+
+/* Light Blue Theme */
+
+/* Header */
+#pale-blue #header hgroup h1{ color: #FFF5F1; }
+#pale-blue div.decoration{ background-color: #fff; }
+#pale-blue div.social a{ background: url(../images/social-pale-blue.png) no-repeat; }
+/* General Styles */
+#pale-blue #wrapper{ background: url(../images/bg-pale-blue.png) repeat; }
+#pale-blue *{ border-color: #B5B5CF !important; }
+#pale-blue div.border{ background-color: #B5B5CF; }
+#pale-blue a{ color: #FFF5F1; }
+#pale-blue a.current{ color: #EE8C77 !important; }
+#pale-blue ul.info li span.title{ color: #EE8C77; }
+#pale-blue div.content h1, #pale-blue div.content h2, #pale-blue div.content h3,
+#pale-blue div.content h4, #pale-blue div.content h5, #pale-blue div.content h6{ color: #EE8C77; }
+/* Resume */
+#pale-blue span.rating1, #pale-blue span.rating2, #pale-blue span.rating3,
+#pale-blue span.rating4, #pale-blue span.rating5{ background: url(../images/skills-pale-blue.png) no-repeat; }
+/* Portfolio*/
+#pale-blue #portfolio a p span{ background: url(../images/portfolio-pale-blue.png) no-repeat; }
+/* Contact */
+#pale-blue #contact .inputbox, #pale-blue #contact textarea{ color: #fff; }
+#pale-blue #contact input.send{ background: #EE8C77; }
+
+/* End Violet Theme */

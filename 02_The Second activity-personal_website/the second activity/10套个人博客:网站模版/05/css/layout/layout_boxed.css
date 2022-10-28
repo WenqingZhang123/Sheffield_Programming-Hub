@@ -1,0 +1,35 @@
+/*=====================================
+        Default 
+=====================================*/
+/*------ Body -----------*/
+
+/*------ Header ---------*/
+.header {
+    border: none;
+    background-color: none;
+}
+.header .container {
+    border-top: 3px solid #626262;
+    border-bottom: 1px solid #f5f5f5;
+    background: none repeat scroll 0 0 #FFFFFF;
+}
+/*------ Footer ---------*/
+footer {
+    border: none;
+    overflow:hidden;
+	background-color: none;
+}
+footer .subfooter, footer .footer {
+    border: none;
+}
+footer .subfooter .container {
+    border-top: 3px solid #626262;
+}
+footer .footer .container {
+    border-bottom: 3px solid #626262;
+}
+footer .subfooter .backtotop {
+}
+footer .subfooter .backtotop:hover {
+	height: 40px;
+}

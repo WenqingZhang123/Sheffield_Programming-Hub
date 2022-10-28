@@ -1,0 +1,45 @@
+/* body attributes */
+body, html { background: #fff; font: 13px Lucida Grande, Verdana, Sans-Serif; padding: 0; margin: 0; }
+
+/* banner image, you may change this just by inputting a different file name. */
+#banner { 	background: url('bannerbg.jpg') no-repeat;  padding: 40px; margin: 0; border-bottom: 3px solid #ccc; color: #fff; }
+
+/* top navigation */
+#nav { background: url('bg1.gif') repeat; padding: 13px; margin: 0; text-align: center; border-bottom: 3px solid #ccc; }
+
+/* where all the text goes */
+#container { background: #fff; margin: 0px 220px 0px 220px; padding: 10px;  }
+
+/* copyright, all that junk. perhaps a second nav */
+#bottom { background: url('bg1.gif') repeat; padding: 5px 0px 5px 100px; border-top: 3px solid #ccc; }
+
+/* the left news box */
+#left { width: 160px;  padding: 7px 5px 7px 5px; margin: 10px 0px 5px 10px; float: left; }
+
+/* left information */
+#info { width: 160px; border-bottom: 1px solid #ddd; }
+.box { background: #eee; border: 1px dotted #ddd; padding: 7px 5px 7px 5px; }
+
+/* gallery */
+#galleryhold { width: 220px; margin: 10px 0px 5px 10px; float: right; padding: 5px; }
+.gallerybox { width: 160px; padding: 0 0 0 5px; }
+.gallerybox a { text-decoration: none; color: #000; }
+
+/* right list of links */
+#links { float: left; width: 160px; padding: 7px 5px 7px 5px; margin: 10px 0px 5px 10px; }
+#links ul { margin: 0; padding: 0; }
+#links li { list-style-type: none; background: url(article.jpg) no-repeat 0px 5px; padding: 0 0 0 25px; line-height: 2em; letter-spacing: 0.1em;  }
+#links a { color: #608FFF; text-decoration: none; } #links a:hover { text-decoration: underline; } #links a:visited { color: #608FFF; } #links p { font-size: 20px; color:  #608FFF; }
+
+/* edited attributes of things */
+.news { color: #608FFF; font-weight: bold; font-size: 16px; }
+.news1 { color: #fff; background-color: #608FFF; font-weight: bold; font-size: 16px; padding: 3px 0 3px 5px; width: 140px; }
+.meta { border-top: 1px solid #aaa; color: #aaa;  text-align: right;} 
+#container p { line-height: 2; text-indent: 30px; } #container a { color: #608FFF; } #container a:hover { text-decoration: none; }
+#container ul { margin: 0 0 0 150px; padding: 0; }
+#container li { list-style-type: none; background: url(article.jpg) no-repeat 0px 5px; padding: 0 0 0 25px; line-height: 2em; letter-spacing: 0.1em; color: #666; font-weight: bold; }
+#bottom a { color: #608FFF; } #bottom a:hover { text-decoration: none; }
+#nav a:link, #nav a:visited, #nav a:active {	 background: url('bg1.gif') repeat; padding: 13px; text-decoration: none; color: #000000; }
+#nav a:hover { padding: 13px; background: url('bg2.jpg'); text-decoration: none; color: #FFFFFF; }
+* html #info { padding-bottom: 7px; }
+acronym { border-bottom: 1px dotted #608FFF; }

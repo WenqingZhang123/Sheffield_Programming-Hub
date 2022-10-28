@@ -1,0 +1,29 @@
+/*=====================================
+        Stretched
+=====================================*/
+
+/*------ Header ---------*/
+.header {
+    border-top: 3px solid #626262;
+    border-bottom: 1px solid #f5f5f5;
+    background: none repeat scroll 0 0 #FFFFFF;
+}
+.header .container {
+    border: none;
+    background-color: none;
+}
+.main-container.stretched {
+	background: none !important;
+}
+/*------ Footer ---------*/
+footer {
+	background-color:#FFF;
+    border-top: 3px solid #626262;
+}
+footer .subfooter {
+}
+footer .backtotop {
+}
+footer .backtotop:hover {
+	height: 40px;
+}

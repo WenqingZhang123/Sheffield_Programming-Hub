@@ -1,0 +1,168 @@
+
+.style_panel .categs ul li ul, .style_panel .ttl_block {
+    background-color: #cfcfcf;
+}
+.categs {
+    background-color: rgba(255, 255, 255, 0.97);
+}
+.style_panel {
+    display: block;
+    left: -209px;
+    position: fixed;
+    text-align: left;
+    top: 125px;
+    width: 209px;
+    z-index: 999;
+}
+.style_panel .ttl_block {
+    font-family: 'OpenSansSemiboldRegular';
+    font-size: 18px;
+    line-height: 28px;
+    padding: 0 0 0 6px;
+    text-transform: uppercase;
+    width: 209px;
+    color:#ffffff;
+}
+.style_panel .color_setting li {
+	padding: 6px 0 6px 6px;
+	position:relative;
+}
+.style_panel .categs {
+    border: medium none !important;
+    display: block;
+    width: 209px;
+}
+.style_panel .categs ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+.style_panel .categs ul li {
+    border-bottom: 1px solid #aeaeae;
+    text-transform: uppercase;
+}
+.style_panel .categs ul li:last-child {
+	border-bottom: 0px none;
+}
+.style_panel .categs ul li a {
+    -moz-transition: background-color 250ms ease 0s, color 250ms ease 0s;
+    background-color:#898989;
+    display: block;
+    font-family: 'OpenSansLightRegular';
+    font-size: 16px;
+    line-height: 28px;
+    padding: 0 0 0 6px;
+    text-decoration: none !important;
+    color: #ffffff;
+}
+.style_panel .categs ul li a:hover {
+    background-color: #626262;
+    color: #FFFFFF;
+    text-decoration: none;
+    cursor:pointer;
+}
+.style_panel .categs ul li a.selected {
+    background-color: #626262;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.style_panel .categs ul li ul {
+    display: none;
+    overflow: hidden;
+}
+.style_panel .categs ul li ul li {
+    border: medium none !important;
+}
+.style_panel .categs ul li ul li a {
+    background: none repeat scroll 0 0 transparent !important;
+    color: #898989 !important;
+    display: block;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    letter-spacing: normal !important;
+    line-height: 28px;
+    padding: 0 0 0 10px;
+    border-bottom: 1px solid #e7e7e7;
+    text-transform: none;
+}
+.style_panel .categs ul li ul li:last-child a {
+	border-bottom: 0px none;
+}
+.style_panel .categs ul li ul li a:hover, .style_panel .categs ul li ul li a.selected {
+    color: #626262 !important;
+}
+.style_panel .categs ul li ul.color_categ {
+	padding-top: 11px;
+	padding-left: 15px;
+}
+.style_panel .categs ul li ul.color_categ li {
+    float: left;
+    margin: 0 13px 11px 0;
+}
+.style_panel .categs ul li ul.color_categ li a {
+    display: block;
+    height: 18px;
+    padding: 0 !important;
+    width: 18px;
+    border-bottom: 0px none;
+}
+.style_panel .categs ul li ul.color_categ li.color1 a {
+    background: none repeat scroll 0 0 #94CA20 !important;
+}
+.style_panel .categs ul li ul.color_categ li.color2 a {
+    background: none repeat scroll 0 0 #20CA86 !important;
+}
+.style_panel .categs ul li ul.color_categ li.color3 a {
+    background: none repeat scroll 0 0 #5AC9CD !important;
+}
+.style_panel .categs ul li ul.color_categ li.color4 a {
+    background: none repeat scroll 0 0 #4C9EE7 !important;
+}
+.style_panel .categs ul li ul.color_categ li.color5 a {
+    background: none repeat scroll 0 0 #8D69DB !important;
+}
+.style_panel .categs ul li ul.color_categ li.color6 a {
+    background: none repeat scroll 0 0 #C270DE !important;
+}
+.style_panel .categs ul li ul.color_categ li.color7 a {
+    background: none repeat scroll 0 0 #F09AD6 !important;
+}
+.style_panel .categs ul li ul.color_categ li.color8 a {
+    background: none repeat scroll 0 0 #F09FAA !important;
+}
+.style_panel .categs ul li ul.color_categ li.color9 a {
+    background: none repeat scroll 0 0 #EC534D !important;
+}
+.style_panel .categs ul li ul.color_categ li.color10 a {
+    background: none repeat scroll 0 0 #FF8376 !important;
+}
+.style_panel .categs ul li ul.color_categ li.color11 a {
+    background: none repeat scroll 0 0 #FF9E35 !important;
+}
+.style_panel .categs ul li ul.color_categ li.color12 a {
+    background: none repeat scroll 0 0 #FFCC00 !important;
+}
+.cpl_toggle {
+    display: block;
+    padding-left: 5px;
+    height: 28px;
+    width: 23px;
+    position: absolute;
+    right: -28px;
+    top: 0;
+    cursor:pointer;
+    font-size: 18px;
+    line-height: 28px;
+    color:#ffffff;
+    background-color:#cfcfcf;
+}
+.cpl_toggle:hover {
+    background-position: 0 -36px;
+    text-decoration:none;
+}
+.cpl_toggle.cpl_show {
+    background-position: -36px 0;
+}
+.cpl_toggle.cpl_show:hover {
+    background-position: -36px -36px;
+}

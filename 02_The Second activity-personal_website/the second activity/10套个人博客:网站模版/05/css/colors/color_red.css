@@ -1,0 +1,65 @@
+a, a:hover,
+ul.list li:before, ol.list li:before,
+.view h5,
+.post-title h5,
+.list_contacts .icon,
+.colored,
+.menu-main ul.sub-menu li.menu-item a:hover,
+.resp-menu li:hover a,
+.resp-menu li .sub-menu li:hover a,
+.resp-menu li .sub-menu li .sub-menu li:hover a,
+.shortcode_colorblock .colorblock_item.light span,
+.shortcode_colorblock .colorblock_item.colored span,
+.shortcode_colorblock.with_hover .colorblock_item.colored:hover span,
+.shortcode_colorblock .colorblock_item.dark span,
+.dropcaps.type1,
+.priceblock_item h3.price,
+.post-title h5,
+.list_contacts .icon,
+.colored {
+    color: #EC534D;
+}
+.shortcode_purchase .purchase_btn:hover,
+.shortcode_colorblock.with_hover .colorblock_item.light:hover span,
+.shortcode_colorblock .colorblock_item.colored,
+.shortcode_colorblock.with_hover .colorblock_item.gray:hover,
+.shortcode_colorblock.with_hover .colorblock_item.gray:hover span,
+.shortcode_colorblock.with_hover .colorblock_item.dark:hover span,
+.priceblock_item.popular .get-btn .shortcode_button:hover,
+.priceblock_item.popular ul .most-popular,
+#respond .comment_btn.send,
+#contact-form .contact_btn.send,
+.social li a:hover,
+.shortcode_button.btn-small,
+.shortcode_button.btn-small-icon:hover,
+.highlighted_colored,
+.camera_azure_skin .camera_prev > span:hover,
+.camera_azure_skin .camera_next > span:hover,
+.camera_azure_skin .camera_commands > .camera_play:hover,
+.camera_azure_skin .camera_commands > .camera_stop:hover,
+.logo img,
+.slide2,
+.arrowButton .pauseArrow.pause,
+.arrowButton .prevArrow:hover,
+.arrowButton .nextArrow:hover ,
+.arrowButton .pauseArrow:hover ,
+#slideshow .camera_prev, 
+#slideshow .camera_next,
+#slidecaption,
+.camera_caption { background-color: #EC534D;}
+textarea:focus, input[type="text"]:focus {
+	background-color: #EC534D !important;
+	border-top: 1px solid #EC534D !important;
+	border-left: 1px solid #EC534D !important;
+}
+.camera_azure_skin .camera_commands > .camera_play:hover,
+.camera_azure_skin .camera_commands > .camera_stop:hover,
+#slideshow .camera_prev, 
+#slideshow .camera_next,
+#tray-button.show, #tray-button:hover,
+#slidecaption { background-color: #EC534D !important;}
+#prevslide:hover, #nextslide:hover, #pauseplay:hover {background-color: #EC534D !important;}
+::selection {background: #EC534D; /* Safari */}
+::-moz-selection {background: #EC534D; /* Safari */}
+hr.colored {border-color: #EC534D;} 
+.shortcode_colorblock .colorblock_item.colored, .shortcode_colorblock.with_hover .colorblock_item.gray:hover {border-bottom: 1px solid #EC534D}
