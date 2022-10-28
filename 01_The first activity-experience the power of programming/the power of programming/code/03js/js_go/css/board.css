@@ -1,0 +1,17 @@
+.boardbox {
+	width: 850px;
+	/* background-color: red; */
+}
+
+#canvas {
+	width: 750px;
+	height: 750px;
+	background-color: #cba281;
+	transform: translate(50px, 50px);
+	cursor: pointer;
+	box-shadow: -2px -2px 2px #F3F2F2, 5px 5px 5px #6F6767;
+}
+
+.controls {
+	width: 350px;
+}
